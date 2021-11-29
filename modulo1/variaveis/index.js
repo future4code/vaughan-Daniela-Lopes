@@ -37,5 +37,33 @@ console.log (caixaDeOvos * quantidadeDeOvos)
 
 
 
+let idade = 29
+let nome = "Daniela"
 
+console.log (typeof nome);
+console.log (typeof idade);
 
+ // Elas são indefinidas pois não atribui valor para ambas//
+
+ prompt("olá, qual é seu nome?");
+ prompt ("Qual é a sua Idade?")
+
+ console.log (typeof idade)
+ console.log (typeof nome)
+
+ // Depois de atribuir os valores elas se tornaram number e string. //
+
+ console.log ("Olá ", nome, "você tem", idade, "anos");
+
+ let hojeTemosSol = true
+ let hojeTemosChuva = false
+ let hojeVamosParaPraia = false
+ console.log (hojeTemosSol, hojeTemosChuva, hojeVamosParaPraia);
+
+ let a = 10
+ let b = 25
+ let c = 10
+ a = c
+ a = b
+ b = c
+ console.log(a,b,c);
