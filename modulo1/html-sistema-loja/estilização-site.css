@@ -1,0 +1,13 @@
+.cabeçalho {
+    color: #6b3399;
+    border: 10px double paleturquoise;
+}
+.cor-nome-empresa{
+    color: #6b3399;
+}
+.informacao-importante{
+    color: red;
+}
+div{
+    margin: 10px 20px;
+}
